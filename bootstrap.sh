@@ -1,13 +1,13 @@
 #!/bin/bash
 # ─────────────────────────────────────────────────────────────
 # Claude Code Bootstrap
-# Usage: curl -s https://raw.githubusercontent.com/YOUR_USER/claude-base/main/bootstrap.sh | bash
+# Usage: curl -s https://raw.githubusercontent.com/ankursoni-dev/claude-base/main/bootstrap.sh | bash
 # Or:    bash bootstrap.sh
 # ─────────────────────────────────────────────────────────────
 
 set -e
 
-REPO="https://raw.githubusercontent.com/YOUR_USER/claude-base/main"
+REPO="https://raw.githubusercontent.com/ankursoni-dev/claude-base/master"
 GREEN="\033[0;32m"
 BLUE="\033[0;34m"
 NC="\033[0m"
