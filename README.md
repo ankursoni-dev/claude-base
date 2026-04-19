@@ -14,10 +14,10 @@ bootstrap.sh          ← copies base .claude/ into your project
 
 ```bash
 # Option A: curl one-liner
-curl -s https://raw.githubusercontent.com/YOUR_USER/claude-base/main/bootstrap.sh | bash
+curl -s https://raw.githubusercontent.com/ankursoni-dev/claude-base/main/bootstrap.sh | bash
 
 # Option B: clone and copy
-git clone https://github.com/YOUR_USER/claude-base.git /tmp/claude-base
+git clone https://github.com/ankursoni-dev/claude-base.git /tmp/claude-base
 cp -r /tmp/claude-base/.claude ./.claude
 
 # Then inside Claude Code:
@@ -76,7 +76,7 @@ claude "/sync-claude"
 
 To pull latest base files without losing your custom files:
 ```bash
-curl -s https://raw.githubusercontent.com/YOUR_USER/claude-base/main/.claude/rules/general.md \
+curl -s https://raw.githubusercontent.com/ankursoni-dev/claude-base/main/.claude/rules/general.md \
   -o .claude/rules/general.md
 # repeat for other base files you want to update
 ```
